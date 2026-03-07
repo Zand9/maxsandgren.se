@@ -44,7 +44,7 @@ const Index = () => {
 
         {/* CTA */}
         <a
-          href="mailto:insert@mail.com"
+          href="mailto:hej@maxsandgren.se"
           className="group mt-10 inline-flex items-center gap-3 rounded-lg border border-primary/30 bg-primary/10 px-6 py-3.5 font-display text-sm text-primary transition-all hover:border-primary/60 hover:bg-primary/20 hover:shadow-[var(--glow-primary)] sm:text-base"
         >
           <Mail className="h-4 w-4" />
