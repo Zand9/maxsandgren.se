@@ -6,7 +6,10 @@ const Index = () => {
       {/* Background glow */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-1/2 top-1/3 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/5 blur-[120px] animate-pulse-glow" />
-        <div className="absolute bottom-1/4 right-1/4 h-[300px] w-[300px] rounded-full bg-primary/3 blur-[100px] animate-pulse-glow" style={{ animationDelay: "1.5s" }} />
+        <div
+          className="absolute bottom-1/4 right-1/4 h-[300px] w-[300px] rounded-full bg-primary/3 blur-[100px] animate-pulse-glow"
+          style={{ animationDelay: "1.5s" }}
+        />
       </div>
 
       <div className="relative z-10 max-w-2xl text-center">
@@ -45,14 +48,12 @@ const Index = () => {
           className="group mt-10 inline-flex items-center gap-3 rounded-lg border border-primary/30 bg-primary/10 px-6 py-3.5 font-display text-sm text-primary transition-all hover:border-primary/60 hover:bg-primary/20 hover:shadow-[var(--glow-primary)] sm:text-base"
         >
           <Mail className="h-4 w-4" />
-          insert@mail.com
+          hej@maxsandgren.se
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
         </a>
 
         {/* Domain */}
-        <p className="mt-16 font-display text-xs tracking-widest text-muted-foreground">
-          maxsandgren.se
-        </p>
+        <p className="mt-16 font-display text-xs tracking-widest text-muted-foreground">maxsandgren.se</p>
       </div>
     </div>
   );
